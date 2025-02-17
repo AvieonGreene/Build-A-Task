@@ -46,8 +46,8 @@ function App() {
         <Route
           path="/"
           element={
-            <div className="flex bg-slate-200 shadow-2xl rounded-full justify-center items-center mt-4 mx-36 pb-36">
-              <div className="flex flex-col">
+            <div className="flex bg-slate-200 shadow-2xl rounded-lg justify-center items-center mt-4 mx-4 md:mx-12 lg:mx-36 p-4 md:p-8">
+              <div className="flex flex-col w-full max-w-4xl">
                 <Header onAddTask={handleAddTask} />
                 <TaskInput
                   taskInput={taskInput}
